@@ -27,7 +27,7 @@ CUSTOM_CSS = """
         background: linear-gradient(180deg, #FFFFFF 0%, #DFE0C3 100%);
     }
     h1, h2, h3 {
-        color: #C2185B !important;
+        color: #344C4B !important;
     }
     section[data-testid="stSidebar"] {
         background-color: #8CBEBF;
