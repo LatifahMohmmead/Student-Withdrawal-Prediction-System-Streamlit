@@ -30,7 +30,7 @@ CUSTOM_CSS = """
         color: #C2185B !important;
     }
     section[data-testid="stSidebar"] {
-        background-color: #FDF2F8;
+        background-color: #8CBEBF;
         border-right: 1px solid #FBCFE8;
     }
     div[data-testid="stMetric"] {
@@ -48,7 +48,7 @@ CUSTOM_CSS = """
         margin-bottom: 18px;
     }
     .risk-high {
-        background: linear-gradient(135deg, #FBCFE8 0%, #F9A8D4 100%);
+        background: linear-gradient(135deg, ##8CBEBF 0%, #F9A8D4 100%);
         border: 2px solid #EC4899;
     }
     .risk-low {
@@ -64,7 +64,7 @@ CUSTOM_CSS = """
         font-weight: 600;
     }
     .stButton>button:hover {
-        background-color: #DB2777;
+        background-color: ##FFFFFF;
         color: white;
     }
 </style>
@@ -271,7 +271,7 @@ if predict_clicked:
                     labels=["Withdrawal probability", "Continuation probability"],
                     values=[withdraw_prob, not_withdraw_prob],
                     hole=0.55,
-                    marker=dict(colors=["#EC4899", "#FBCFE8"]),
+                    marker=dict(colors=["#E5765C", "#344C4B"]),
                     textinfo="label+percent",
                     textfont=dict(size=14),
                 )
@@ -287,7 +287,7 @@ if predict_clicked:
                     x=0.5,
                     y=0.5,
                     font_size=28,
-                    font_color="#BE185D",
+                    font_color="#DFE0C3",
                     showarrow=False,
                 )
             ],
@@ -301,7 +301,7 @@ if predict_clicked:
             x=importance_df["importance"],
             y=importance_df["feature"],
             orientation="h",
-            marker=dict(color="#EC4899"),
+            marker=dict(color="#8CBEBF"),
         )
     )
     fig_imp.update_layout(
