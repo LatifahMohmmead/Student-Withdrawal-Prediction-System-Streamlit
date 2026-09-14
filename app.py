@@ -24,18 +24,18 @@ st.set_page_config(
 CUSTOM_CSS = """
 <style>
     .stApp {
-        background: linear-gradient(180deg, #FFFFFF 0%, #FFF5FA 100%);
+        background: linear-gradient(180deg, #FFFFFF 0%, #DFE0C3 100%);
     }
     h1, h2, h3 {
         color: #C2185B !important;
     }
     section[data-testid="stSidebar"] {
         background-color: #8CBEBF;
-        border-right: 1px solid #FBCFE8;
+        border-right: 1px solid #E5765C;
     }
     div[data-testid="stMetric"] {
         background-color: #FFFFFF;
-        border: 1px solid #FBCFE8;
+        border: 1px solid #E5765C;
         border-radius: 14px;
         padding: 16px;
         box-shadow: 0 2px 8px rgba(236, 72, 153, 0.08);
@@ -48,15 +48,15 @@ CUSTOM_CSS = """
         margin-bottom: 18px;
     }
     .risk-high {
-        background: linear-gradient(135deg, ##8CBEBF 0%, #F9A8D4 100%);
+        background: linear-gradient(135deg, #E5765C 0%, #DFE0C3 100%);
         border: 2px solid #EC4899;
     }
     .risk-low {
-        background: linear-gradient(135deg, #FCE7F3 0%, #FFFFFF 100%);
+        background: linear-gradient(135deg, #8CBEBF 0%, #FFFFFF 100%);
         border: 2px solid #F9A8D4;
     }
     .stButton>button {
-        background-color: #EC4899;
+        background-color: #E5765C;
         color: white;
         border-radius: 12px;
         border: none;
